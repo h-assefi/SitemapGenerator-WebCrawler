@@ -24,11 +24,6 @@ namespace SitemapGenerator
         // Queue for URLs to crawl
         List<string> queueToCrawl = new List<string>();
 
-        private void frmSitemapGenerator_Load(object sender, EventArgs e)
-        {
-
-        }
-
         // Main event handler for starting the crawling and sitemap generation
         private void btnStartCrawling_Click(object sender, EventArgs e)
         {
